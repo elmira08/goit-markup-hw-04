@@ -89,11 +89,15 @@ color: #404bbf;
     height: 4px;
     background-color: #404BBF;
     border-radius: 2px;
+    position: absolute;
     display: block;
     margin: 0 auto;
     transition: 250ms;
     margin-top: 10px;
+    left: 0;;
     bottom: -1px;
+    
+    
 }
 .address{
     font-style: normal;
@@ -392,6 +396,6 @@ color: #404bbf;
     color:#FFFFFF;
     margin-bottom: 16px;
 }
-.socials .team-socials-link:hover{
+.socials .team-socials-link:hover,.socials .team-socials-link:focus{
     background-color: #31D0AA;
 }
